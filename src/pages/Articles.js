@@ -72,7 +72,7 @@ const AdoptionCenters = () => {
     const recipientEmail = user.attributes.email; 
   
     const emailParams = {
-      from: 'youremail@example.com', // Replace with the verified sender email address
+      from: 'anjiayu9@gmail.com', 
       to: recipientEmail,
       subject: 'Top 10 Adoption Center Articles',
       html: `<html><body>${emailContent}</body></html>`
